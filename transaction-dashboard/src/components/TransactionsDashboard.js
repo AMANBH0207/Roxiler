@@ -5,7 +5,7 @@ import BarChart from './BarChart';
 import "../Styles/TransactionsDashboard.css"
 
 function TransactionsDashboard() {
-  const [selectedMonth, setSelectedMonth] = useState('10');
+  const [selectedMonth, setSelectedMonth] = useState('2');
   const [selectedYear, setSelectedYear] = useState('2022');
   const [searchText, setSearchText] = useState('');
   const [searchQuery, setSearchQuery] = useState('');
